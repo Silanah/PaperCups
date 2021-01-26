@@ -18,7 +18,7 @@ class Features extends Component {
                     <div className='featuresImgs'>
                         <div className='imgWrap'>
                             <img
-                                src={demo1}
+                                src={ demo1 }
                                 alt='cups'
                             />
                             <h3>organised layers</h3>
@@ -28,7 +28,7 @@ class Features extends Component {
                         </div>
                         <div className='imgWrap'>
                             <img
-                                src={demo2}
+                                src={ demo2 }
                                 alt='cups'
                             />
                             <h3>smart obcject</h3>
@@ -38,7 +38,7 @@ class Features extends Component {
                         </div>
                         <div className='imgWrap'>
                             <img
-                                src={demo3}
+                                src={ demo3 }
                                 alt='cups'
                             />
                             <h3>transparent bg</h3>
