@@ -1,0 +1,81 @@
+@import '../settings/colors';
+
+.header {
+    width: 100vw;
+    height: auto;
+
+    background-color: $mainY;
+
+    .headWrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .headerTxt {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+
+            margin-top: 70px;
+
+            h1 {
+                margin-bottom: 10px;
+
+                font-size: 70px;
+                font-weight: 300;
+
+                span {
+                    
+                    font-weight: bolder;
+                }
+            }
+
+            .h2 {
+                font-size: 30px;
+                font-weight: 600;
+
+                margin-bottom: 20px;
+            }
+
+            p {
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            .sendBtn {
+                margin-top: 40px;
+                margin-bottom: 15px;
+
+                button {
+                    height: 48px;
+
+                    cursor: pointer;
+
+                    border: none;
+                    border-radius: 4px;
+                    box-shadow: 0 4px 0 #e0e0e0;
+                    background-color: $mainW;
+
+                    font-size: 14px;
+
+                    a {
+                        padding: 35px;
+
+                        text-transform: uppercase;
+
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+        .headImg {
+            text-align: center;
+
+            width: auto;
+        }
+    }
+}
