@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Materials from './components/Materials';
 import Includes from './components/Includes';
 import Requirements from './components/Requirements';
+import Features from './components/Features';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Materials />
         <Includes />
         <Requirements />
+        <Features />
       </>
     )
   }
