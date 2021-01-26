@@ -1,7 +1,7 @@
 @import '../settings/colors';
 
 .header {
-    width: 100vw;
+    width: auto;
     height: auto;
 
     background-color: $mainY;
@@ -25,7 +25,6 @@
                 font-weight: 300;
 
                 span {
-                    
                     font-weight: bolder;
                 }
             }
