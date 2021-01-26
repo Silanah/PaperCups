@@ -15,7 +15,7 @@ class Requirements extends Component {
                     </div>
                     <div className='reqImg'>
                         <img
-                            src={PS}
+                            src={ PS }
                             alt='ps_icon'
                         />
                     </div>
