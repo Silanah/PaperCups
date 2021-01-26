@@ -6,6 +6,7 @@ import Includes from './components/Includes';
 import Requirements from './components/Requirements';
 import Features from './components/Features';
 import Offer from './components/Offer';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Requirements />
         <Features />
         <Offer />
+        <Contact />
       </>
     )
   }
