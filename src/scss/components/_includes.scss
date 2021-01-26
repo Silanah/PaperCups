@@ -48,23 +48,27 @@
 
                 .sendBtn {
                     margin-top: 20px;
-    
+
                     button {
                         height: 48px;
-    
+
                         cursor: pointer;
-    
+
                         border: none;
                         border-radius: 4px;
                         box-shadow: 0 4px 0 #e0e0e0;
                         background-color: $mainW;
-    
+
                         font-size: 14px;
-    
+
                         a {
                             padding: 35px;
-    
+
                             text-transform: uppercase;
+
+                            span {
+                                font-weight: bold;
+                            }
                         }
                     }
                 }
