@@ -1,0 +1,67 @@
+@import '../settings/colors';
+
+.features {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    .featuresWrapper {
+        width: 800px;
+
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+        .featuresTxt {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            margin-bottom: 60px;
+
+            h2 {
+                margin-bottom: 0;
+                text-transform: uppercase;
+                font-size: 70px;
+                font-weight: 400;
+            }
+
+            h3 {
+                font-size: 30px;
+                font-weight: 400;
+            }
+        }
+
+        .featuresImgs {
+            display: flex;
+            justify-content: center;
+
+            .imgWrap {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            img {
+                border-radius: 50%;
+                border: 5px solid $mainY;
+
+                margin-left: 40px;
+                margin-right: 40px;
+                margin-bottom: 15px;
+            }
+
+            h3 {
+                text-transform: uppercase;
+            }
+
+            p {
+                line-height: 35px;
+            }
+        }
+    }
+}
