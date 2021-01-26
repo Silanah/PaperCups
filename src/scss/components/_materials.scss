@@ -1,0 +1,45 @@
+@import '../settings/colors';
+
+.materials {
+    width: auto;
+    height: auto;
+
+    background-color: $mainW;
+
+    .materialsWrapper {
+        display: flex;
+        justify-content: center;
+
+        .materialsTxt {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+            width: 800px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+
+            h2 {
+                font-size: 38px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            h3 {
+                margin-bottom: 60px;
+
+                font-size: 21px;
+                line-height: 28px;
+                font-weight: 300;
+            }
+
+            p {
+                span {
+                    font-weight: bolder;
+                    color: $mainY;
+                }
+            }
+        }
+    }
+}
